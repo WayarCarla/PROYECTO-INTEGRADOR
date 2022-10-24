@@ -17,10 +17,15 @@ UNIQUE INDEX Id_Operacion_Comercial_UNIQUE (Id_Operacion_Comercial ASC) VISIBLE,
 UNIQUE INDEX Id_Propietario_UNIQUE (Id_Propietario ASC) VISIBLE)
 COMMENT = 'Tabla de Propiedad ';
 
+--- TABLA ESTADO ---
 CREATE TABLE db_inm_brf.ESTADO (
 Id_Estado VARCHAR(45) NOT NULL,
 Nombre_Estado VARCHAR(45) NOT NULL,
 PRIMARY KEY (Id_Estado) );
 
-
+--- TABLA OPERATORIA COMERCIAL ---
+CREATE TABLE db_inm_brf.OperatoriaComercial (
+Id_Operatoria_Comercial VARCHAR(45) NOT NULL,
+Nombre_Operatoria_Comercial VARCHAR(45) NOT NULL,
+PRIMARY KEY (Id_Operatoria_Comercial) );
 
