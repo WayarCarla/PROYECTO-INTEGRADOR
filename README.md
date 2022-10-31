@@ -1,10 +1,21 @@
-Tecnicatura Superior en Telecomunicaciones
-Módulo programador
-TRABAJO INTEGRADOR
++ Tecnicatura Superior en Telecomunicaciones
+
++ Módulo programador
+
++ TRABAJO INTEGRADOR
 
 Condiciones generales de entrega:
 ➔ Trabajo grupal, de 3(tres) o 4(cuatro) integrantes, sin importar
 el aula.
+
+# Integrantes:
+-   Dario Arriola
+-   Oscar Gazzola
+-   Migue Angel Segnana
+-   Carla Argentina Wayar
+
+
+Daniel Rodriguez
 ➔ Utilización y entrega mediante repo de GitHub.
 ➔ Trabajo colaborativo demostrado en el repo.
 
@@ -41,5 +52,8 @@ la base de datos que se adjunta en el pdf.
 
 También se necesita que se conecte la Base de Datos creada, con
 el ABM desarrollado para poder persistir los datos.
+# CONSIGNAS
 
-[TRABAJO INTEGRADOR.pdf](https://github.com/WayarCarla/PROYECTO-INTEGRADOR/files/9847563/TRABAJO.INTEGRADOR.pdf)
+![TRABAJO INTEGRADOR_TST_page-0001](https://user-images.githubusercontent.com/106171748/196010360-30bd728d-8a17-47e0-bd26-ea0ff7104c01.jpg)
+![TRABAJO INTEGRADOR_TST_page-0002](https://user-images.githubusercontent.com/106171748/196010366-e960c511-6240-4953-b8e0-3a07b475da23.jpg)
+
