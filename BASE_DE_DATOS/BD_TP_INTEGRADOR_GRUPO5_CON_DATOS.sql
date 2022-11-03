@@ -131,4 +131,39 @@ USE `db_inm_brf` ;
 
 insert into `db_inm_brf`.`propiedad`  values ('1', '5', '1', '2', '1', 'SAN SALVADOR DE JUJUY', 'JUJUY');
 insert into `db_inm_brf`.`propiedad`  values ('2', '4', '2', '1', '2', 'RESISTENCIA', 'CHACO');
-insert into `db_inm_brf`.`propiedad`  values ('1', '5', '3', '2', '1', 'Formosa', 'Formosa');
+insert into `db_inm_brf`.`propiedad`  values ('3', '5', '1', '2', '3', 'Formosa', 'Formosa');
+insert into `db_inm_brf`.`propiedad`  values ('4', '5', '2', '2', '3', 'Clorinda', 'Formosa');
+insert into `db_inm_brf`.`propiedad`  values ('5', '5', '2', '2', '1', 'Tafi del Valle', 'Tucuman');
+insert into `db_inm_brf`.`propiedad`  values ('6', '2', '1', '1', '1', 'Cachi', 'Salta');
+-- ------------------------------------------------------------------------------
+-- Listado de propiedades TOTALES, sin distinción de estados
+-- 
+select * from propiedad
+-- ---------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------
+-- Listado de propiedades DISPONIBLES para la venta
+-- 
+select * from propiedad where Id_Operacion_Comercial= 1 and Id_Estado= 1
+-- -----------------------------------------------------------------------------------
+
+-- --------------------------------------------------------------------------------
+-- Listado de propiedades DISPONIBLES para alquiler
+-- 
+select * from propiedad where Id_Operacion_Comercial= 2 and Id_Estado= 1
+-- -----------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------
+-- Listado de propiedades vendidas
+-- 
+select * from propiedad where Id_Operacion_Comercial= 1 and Id_Estado= 2
+-- ---------------------------------------------------------------------------------
+
+- --------------------------------------------------------------------------------
+-- Listado de propiedades alquiladas
+-- 
+select * from propiedad where Id_Operacion_Comercial= 2 and Id_Estado= 2
+-- ---------------------------------------------------------------------------------
+
+-- select * from estado
+-- select * from `operatoria comercial`
+-- select * FROM propietario
+-- select * FROM tipo
