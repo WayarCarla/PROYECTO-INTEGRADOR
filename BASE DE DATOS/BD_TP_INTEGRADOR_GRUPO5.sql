@@ -48,7 +48,7 @@ COMMENT = 'Tabla de Operatoria Comercial';
 
 -- -----------------------------------------------------
 -- Table `db_inm_brf`.`propietario`
--- -----------------------------------------------------
+-- ------------------------------------------------------
 CREATE TABLE IF NOT EXISTS `db_inm_brf`.`propietario` (
   `Id_Propietario` INT NOT NULL,
   `Nombre` VARCHAR(45) NOT NULL,
