@@ -15,7 +15,6 @@ el aula.
 -   Carla Argentina Wayar
 
 
-Daniel Rodriguez
 ➔ Utilización y entrega mediante repo de GitHub.
 ➔ Trabajo colaborativo demostrado en el repo.
 
